@@ -1,17 +1,14 @@
 language: node_js
 node_js:
 - '0.10'
-
 before_install: npm install -g mocha
-
 deploy:
   provider: s3
   access_key_id: AKIAJW4OZQ4RRWBJNCDA
   secret_access_key:
-    secure: tWDUWIWIOxpTNEZZVP77kajUbmd83M4UthkOkZAzeJSq/alRfMg0qkb7nQHnPssVwHY5+oS5WbBUQ9eAc+eXcsM5BYaLJJlUwnu3C6A0evp1CUs5vXtZb1foaEKv+ddfDfzQhLlpGdHFVDo6huwPUUNW7jp6yXm/hIJDNI7fAW++lcIHGwVTzlwY13tZOmwTOlMfyTciCKeTfN9GhGYkd++C4If2h5yTM3aBuhAkA6+bF3uuAR1J0cVdzFb4QZbk0BQVzaindYWKFVGr6F4ZhCFQXhUduT48mJbm0YCiOia2TDCJxheGrk/7Ik4LGg2p9r1ppo1vbBx4MiV8d/vgzL7GMZMqloAr3v4txNBsJWN2PkcBYctrVdlNFv1gd+Eskt5Kt5oneLhTsKGn30sPULBGVgiATG4BSJlKGT0XxlwpP3/6afp29+1s5NYqPx4EccnVnC8Ktu4rETH37ax82MmCL7NYbakVpdC0K3uCCr2sc5kPy9T7yByjfX//rgmyb+wA+c+Nok231nhwOu44d/j6+sxbozJCTNqWhvOTo5yxXhvqy3hxo43YuYqXEyKjoB2s1hDhxpKRR/0k5sK8E7lSF0uZhoTvosckObsj56Kz3mF1NBOtlGzsKlllg8jp38XQAgNwD+Hhpr6RuDtfzDb+PN7fZoKzRT4Sm0q5W8c=
+    secure: A05UBrX4ukB9eoajfzsZY8+Rq10dLRubdRWx1GLySnX6fzpqp6hGPXopy2X7/4LI1pB8iSz0a1qCQE7vRmdNr5l+uN8bv/EWAto6c9E43CD0baRzPcnONGzNS1sMKO0231RIKNKcwg1xxdMNop1bvN7CIkbNtiGQacsXPzs0MrUergwMdeuKbRRh1FQVYf4m2Xg/I+8UHgC6sovtuKvTA8eJtdEfhNBJTbzD4G1cmHYon8LPtEpkeTQhWGpPIGyd7jDHZVjgDnUSGvxY4QLq0u1wK4lwAnQSpSp1VoxMen2KOxpoMWvHZH7nLyOk7UCZeHC8G1Nv+Ms2Rb+ondcPij7HI8Sj3tzyMknKxTSVfDMUTcXA5AidC2X6/Tw4kbaa5L5FmFFIa4y7HDs2HCbhAP9YKNmWQxFUXMjNmLacV8SR/uzlh9r8E1q6r9YC2czGv2FcXALZgFZPQ2q65EBBE9CMjSwfvIOPN9qBG83HMtnIY0SW6uW0WRCIRQ65LJAj7AsayGKxhPFwjvZkb8K+v/Ows1gxqRf9Ta1AvyUI/wBNn/uHN0NhWa+izxKRGT3wK0Hc//zjvNb9sSVz6VLvEZ747/AWvAhGamzkX+pljWRmD+Vit7JuWCf9DdG/x0RTTv/fTzM/0+j9bh2diukI5EYT2OjMSFtNByV/S/FDwLE=
   bucket: deploy-weeia
-  local-dir: marcin.gradzki/workerAPP
   upload-dir: marcin.gradzki/workerAPP
-  acl: public
+  acl: public_read
   on:
     repo: marcingradzki/ciTestGradzki2
