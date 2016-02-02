@@ -10,7 +10,6 @@ deploy:
   secret_access_key:
     secure: tWDUWIWIOxpTNEZZVP77kajUbmd83M4UthkOkZAzeJSq/alRfMg0qkb7nQHnPssVwHY5+oS5WbBUQ9eAc+eXcsM5BYaLJJlUwnu3C6A0evp1CUs5vXtZb1foaEKv+ddfDfzQhLlpGdHFVDo6huwPUUNW7jp6yXm/hIJDNI7fAW++lcIHGwVTzlwY13tZOmwTOlMfyTciCKeTfN9GhGYkd++C4If2h5yTM3aBuhAkA6+bF3uuAR1J0cVdzFb4QZbk0BQVzaindYWKFVGr6F4ZhCFQXhUduT48mJbm0YCiOia2TDCJxheGrk/7Ik4LGg2p9r1ppo1vbBx4MiV8d/vgzL7GMZMqloAr3v4txNBsJWN2PkcBYctrVdlNFv1gd+Eskt5Kt5oneLhTsKGn30sPULBGVgiATG4BSJlKGT0XxlwpP3/6afp29+1s5NYqPx4EccnVnC8Ktu4rETH37ax82MmCL7NYbakVpdC0K3uCCr2sc5kPy9T7yByjfX//rgmyb+wA+c+Nok231nhwOu44d/j6+sxbozJCTNqWhvOTo5yxXhvqy3hxo43YuYqXEyKjoB2s1hDhxpKRR/0k5sK8E7lSF0uZhoTvosckObsj56Kz3mF1NBOtlGzsKlllg8jp38XQAgNwD+Hhpr6RuDtfzDb+PN7fZoKzRT4Sm0q5W8c=
   bucket: deploy-weeia
-  local-dir: marcin.gradzki/workerAPP
   upload-dir: marcin.gradzki/workerAPP
   acl: public
   on:
