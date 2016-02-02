@@ -1,0 +1,19 @@
+{
+  "name": "aws_worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcingradzki/ciTestGradzki2.git"
+  },
+  "author": "Marcin G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcingradzki/ciTestGradzki2/issues"
+  },
+  "homepage": "https://github.com/marcingradzki/ciTestGradzki2#readme"
+}
